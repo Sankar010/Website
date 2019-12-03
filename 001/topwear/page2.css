@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color:rgba(222, 184, 135, 0.342);
+}
+header{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 35px;
+    background-color:rgb(245, 245, 245);
+    color: rgba(218, 165, 32, 0.836);
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.945);
+    
+}
+span{
+    color:rgba(245, 245, 245, 0.726);
+
+}
+
+nav{
+    position: fixed;
+    background-color:rgba(0, 0, 139, 0.699);
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    top:7%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 0px;
+    padding: 0px;
+
+}
+a{
+    padding: 10px 63.7px;
+    font-size:18.0px;
+    text-decoration: none;
+    text-align: left;
+    color: rgb(245, 245, 245);
+    text-transform: uppercase;
+    border-color: black;
+    width: 100%;
+    position: relative;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+img{
+    width:950px;
+    height:350px;
+}
+.slidershow{
+    top:85px;
+    left:15%;
+    position: absolute;
+    transform: translate(-100px 100px);
+    overflow:hidden;
+    z-index:-1;
+    width:950px;
+    height:350px;
+}
+.btn{
+    position: absolute;
+    bottom:20px;
+    left:500px;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+width:10px;
+height:10px;
+color:black;
+border:2px double white;
+margin:10px;
+cursor: pointer;
+transition: 0.4s;
+}
+.bar:hover{
+    background : tomato;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width:500%;
+    height:100%;
+    display: flex;
+}
+.slide{
+    width:100%;
+    transition:0.8s;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -50%;
+}
+#r3:checked ~ .s1{
+    margin-left: -200%;
+}
+.tshirts{
+    top: 450px;
+    position: absolute; 
+    z-index: -1;
+}
+.ts{
+    top:200px;
+    left:150px;
+    position: absolute;   
+}
+pre{
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color:whitesmoke;
+}
+.btn1{
+    top:290px;
+    left:180px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}
+.collage{
+    position: absolute;
+    left:450px; 
+    display: flex;
+}
+.collage2{
+    position: absolute;
+    left:450px;
+    display:flex;
+    top:300px;
+}
+
+.clg{
+    width:450px;
+    height:300px;
+   
+}
+.clg:hover{
+    opacity: 0.7;
+}
+.cshirts{
+    top:950px;
+    left:0px;
+    position: absolute;
+    z-index: -1;
+}
+.cs{
+    top:300px;
+    left:1000px;
+    position: relative;   
+}
+.collage3{
+    position: absolute;
+    left:0px; 
+    display: flex;
+}
+.collage4{
+    position: absolute;
+    left:0px;
+    display:flex;
+    top:398px;
+}
+.btn2{
+    top:380px;
+    left:1070px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}
+.fshirts{
+    top:1648px;
+    left:0px;
+    position: absolute;;
+    z-index: -1;
+}
+.fs{
+    top:250px;
+    left:150px;
+    position: absolute;   
+}
+.collage5{
+    position: absolute;
+    left:450px; 
+    display: flex;
+}
+.collage6{
+    position: absolute;
+    left:450px;
+    display:flex;
+    top:300px;
+}
+.btn3{
+    top:350px;
+    left:220px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}
+.bs{
+    top:2250px;
+    left:0px;
+    position: absolute;;
+    z-index: -1;
+}
+.coats{
+    top:300px;
+    left:1000px;
+    position: absolute;   
+}
+.collage7{
+    position: absolute;
+    left:0px; 
+    display: flex;
+}
+.collage8{
+    position: absolute;
+    left:0px;
+    display:flex;
+    top:300px;
+}
+.btn4{
+    top:380px;
+    left:1090px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}
+.js{
+    top:2880px;
+    left:0px;
+    position: absolute;;
+    z-index: -1;
+}
+.jackets{
+    top:110px;
+    left:620px;
+    position: absolute;   
+}
+.clg2{
+    top:0px;
+    left:100px;
+    position: absolute;
+    width:425px;
+    height:300px;
+}
+.clg3{
+    top:0px;
+    left:850px;
+    position: absolute;
+    width:425px;
+    height: 300px;
+}
+.btn5{
+    top:200px;
+    left:640px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}
+.su{
+    top:3210px;
+    left:0px;
+    position: absolute;;
+    z-index: -1;
+}
+.suits{
+    top:110px;
+    left:630px;
+    position: absolute;   
+}
+.clg4{
+    top:0px;
+    left:100px;
+    position: absolute;
+    width:425px;
+    height:300px;
+}
+.clg5{
+    top:0px;
+    left:850px;
+    position: absolute;
+    width:425px;
+    height: 300px;
+}
+.btn5{
+    top:200px;
+    left:640px;
+    position: absolute;
+    font-family: fantasy;
+    font-size: 20px;
+    border-color: darkgreen;
+    padding:10px;
+    background-color:rgba(0, 0, 139, 0.322); 
+}

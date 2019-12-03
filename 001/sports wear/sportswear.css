@@ -1,0 +1,167 @@
+.head {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 35px;
+    background-color: rgb(245, 245, 245);
+    color: rgba(218, 165, 32, 0.836);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.945);
+
+}
+
+span {
+    color: rgba(245, 245, 245, 0.726);
+
+}
+
+.navbar {
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.clr {
+    background-color: black;
+    height: 380px;
+    margin-top: 40px;
+}
+
+.sw1 {
+    margin-top: 220px;
+    margin-left: 70px;
+    height: 300px !important;
+    width: 90%;
+}
+
+.sw2 {
+    margin-top: 70px;
+    height: 550px !important;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.lst {
+    right: 20px;
+}
+
+.sw3 {
+    margin-top: 220px;
+    margin-right: 0px;
+    height: 300px !important;
+    width: 90%;
+}
+
+@media only screen and (max-width :600px) {
+
+    .lst,
+    .last {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .sw2 {
+        height: 300px !important;
+        margin-top: 30px
+    }
+
+    .clr {
+        height: 200px;
+    }
+
+    .mid {
+        top: 30px;
+        margin-left: 10px;
+    }
+}
+
+.shoes {
+    margin-top: 280px;
+}
+
+.sh {
+    height: 5% !important;
+
+}
+
+.ron,
+.sac {
+    background-color: black;
+    height: 200px;
+    margin-top: 100px;
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+    color: rgba(245, 245, 245, 0.89);
+}
+
+.sac {
+    margin-top: 0px;
+
+}
+
+.text {
+    margin-left: 30px;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.text2 {
+    font-size: 34px;
+    margin-left: 400px;
+    color: rgba(245, 245, 245, 0.89);
+    padding: 30px;
+}
+
+.cr,
+.st {
+    height: 300px !important;
+    margin-left: 500px;
+    position: relative;
+    bottom: 300px;
+}
+
+.goal,
+.bat {
+    height: 10px;
+}
+
+.gf {
+    width: 320PX;
+}
+
+.st {
+    margin-left: 600px;
+
+}
+
+@media only screen and (max-width :768px) {
+    .cr {
+        margin-left: 200px;
+    }
+
+    .st {
+        margin-left: 200px;
+    }
+
+}
+
+@media only screen and (max-width :600px) {
+    .cr {
+        margin-left: 10px;
+    }
+
+    .st {
+        margin-left: 10px;
+    }
+
+}
+
+.footer_word {
+    margin-left:500px;
+    display: flex;
+    word-wrap: normal;
+    word-spacing: 2rem;
+    font-size: 7rem;
+    text-transform: uppercase;
+}

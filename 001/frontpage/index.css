@@ -1,0 +1,106 @@
+.bg-image{
+    background-image: url(bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    width:100%;
+    position: relative;
+    -webkit-filter: blur(2px);
+    opacity: 0.8; 
+} 
+h1{
+    font-family: 'Bowlby One SC', cursive;
+    font-size:66px;
+    text-align: center;
+    color:rgba(218, 165, 32, 0.836);
+    text-shadow:6px 6px 8px rgba(0, 0, 0, 0.945);
+    top:30%;
+    left:40%;
+    position: absolute;
+    }
+    span{
+        color:rgba(245, 245, 245, 0.726);
+    }
+
+.butn{
+    top:38%;
+    left:55%;
+    width: 12%;
+    position: absolute;
+    transform: translate(-100px,100px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(255, 81, 0, 0.452);
+}
+
+.butn:hover{
+    background-color: rgba(153, 218, 32, 0.801);
+}
+
+.bottom{
+   color:rgba(245, 245, 245, 0.692);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: double;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.568);
+    font-size:22px;
+    text-align: center;
+    border-radius: 10px;
+    top: 55%;
+    left: 49%;
+    position: absolute;
+    transform: translate(-190px, 150px);
+    background-color:rgba(0, 0, 0, 0.363);
+}
+
+/* css 2 */
+.bg-img2{
+    background-image: url(Urban.jpg); 
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 100vh;
+    position: relative; 
+    opacity: 0.87; 
+
+}
+
+.menu{
+position: absolute;
+    
+    text-align: center;
+     left:50%;
+    top:130%; 
+    transform: translate( -100px, 0px);
+    
+}
+
+button{
+    font-size: 20px;
+    border-style:solid;
+    font-family:'Bowlby One SC', cursive ;
+    color:black;
+    border-radius:20px;
+    border-color:rgba(0, 0, 0, 0.589);
+    background-color:rgba(43, 255, 0, 0.384);
+    position: relative; 
+    width: 100%;
+    margin: 10px 10px;
+}
+ button:hover{
+    background-color: rgba(245, 245, 245, 0.74);
+ }
+.head2{
+    font-family:'Bowlby One SC', cursive; 
+    font-size: 40px;
+    text-align: center;
+    top:110%;
+    left:40%;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.938);
+    text-shadow:2px 2px 3px rgb(215, 218, 32);
+
+}
+
